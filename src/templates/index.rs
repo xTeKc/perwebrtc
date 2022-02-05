@@ -18,7 +18,7 @@ pub struct IndexPageProps {
 pub fn index_page(props: IndexPageProps) -> View<G> {
     view! {
         p {(props.greeting)}
-        a(href = "about", id = "about-link") { "About!" }
+        a(href = "chat", id = "chat-link") { "Chat!" }
     }
 }
 
