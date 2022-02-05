@@ -16,6 +16,8 @@ pub fn head() -> View<SsrNode> {
     }
 }
 
+
+
 pub fn get_template<G: Html>() -> Template<G> {
     Template::new("chat").template(chat_page).head(head)
 }
