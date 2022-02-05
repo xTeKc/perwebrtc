@@ -9,6 +9,7 @@ crate-type = ["cdylib", "rlib"]
 
 
 [dependencies]
+iced_web = "0.4.0"
 perseus = { version = "0.3.0", features = [ "hydrate" ] }
 sycamore = "0.7"
 serde = { version = "1", features = ["derive"] }
